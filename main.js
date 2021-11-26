@@ -1,0 +1,9 @@
+function generatorColors() {
+
+  
+
+}
+
+function changeColor() {
+
+}
