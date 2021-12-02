@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -21,22 +22,24 @@ body {
 }
 
 .btn {
+  margin: 4px;
+  padding: 4px;
   display: flex;
   position: absolute;
   top: 725px;
   left: 47%;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 368px) {
   .container {
-    height: 145vh;
+    height: 150vh;
     display: flex;
   }
   .colors {
     display: flex;
-    width: 25%;
+    width: 20%;
     height: -98vh;
     top: 50%;
     border: 1px solid black;
@@ -44,6 +47,9 @@ body {
     text-align: center;
   }
   .btn {
+    position: absolute;
+    top: 725px;
+    left: 55%;
     align-items: center;
     border-radius: 4px;
     cursor: pointer;
