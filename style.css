@@ -8,13 +8,14 @@ body {
 }
 
 .container {
-  height: 100vh;
   display: flex;
+  height: 100vh;
 }
 
 .colors {
   display: flex;
   width: 20%;
+  height: 100vh;
   border: 1px solid black;
   align-items: center;
   text-align: center;
@@ -25,8 +26,8 @@ body {
   margin: 4px;
   padding: 4px;
   display: flex;
-  position: absolute;
-  top: 725px;
+  position: fixed;
+  top: 425px;
   left: 47%;
   border-radius: 6px;
   cursor: pointer;
@@ -40,7 +41,7 @@ body {
   .colors {
     display: flex;
     width: 20%;
-    height: -98vh;
+    height: 99vh;
     top: 50%;
     border: 1px solid black;
     align-items: center;
@@ -49,7 +50,7 @@ body {
   .btn {
     position: absolute;
     top: 725px;
-    left: 55%;
+    left: 41%;
     align-items: center;
     border-radius: 4px;
     cursor: pointer;
